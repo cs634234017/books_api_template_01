@@ -21,7 +21,7 @@ var serviceAccount = require("./firebase_key.json");
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
   databaseURL:
-    "https://flutter-book-api-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "https://flutter-book-api-83efd-default-rtdb.asia-southeast1.firebasedatabase.app",
 });
 
 var db = firebase.database();
